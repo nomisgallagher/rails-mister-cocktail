@@ -1,0 +1,6 @@
+<h1> Tu peux changer ton cocktail <%= @cocktail.name %> ici</h1>
+
+<%= simple_form_for (@cocktail) do |f| %>
+  <%= f.input :name %>
+  <%= f.submit "Faire les changements", class: "btn btn-primary" %>
+  <% end %>

@@ -1,3 +1,6 @@
-class IngredientsController < ApplicationController
+#  This is a useless controller #Rose's instruction
 
-end
+
+# class IngredientsController < ApplicationController
+
+# end
